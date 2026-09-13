@@ -1,1 +1,1 @@
-Java Assignment - 2 ProgramsS
+Java Assignment - 2 Programs

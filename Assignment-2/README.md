@@ -1,379 +1,571 @@
-{align="center"}
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=180&section=header&text=Java%20Programming%20Assignment%202&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>{=html}
+<!-- ========================================================= -->
+<!--                    JAVA ASSIGNMENT 1                       -->
+<!-- ========================================================= -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=4FC3F7&center=true&vCenter=true&width=750&lines=☕+Advanced+Java+Programming;🚀+8+Programs+%7C+Advanced+Concepts;🧵+Multithreading+%7C+Collections+%7C+Networking;📁+File+Handling+%7C+Swing+GUI;✨+Programming+with+JAVA+%7C+202044502" alt="Animated typing"/>{=html}
+<div align="center">
 
-<br>{=html}<br>{=html}
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8A00,50:F89820,100:6C63FF&height=200&section=header&text=Java%20Programming%20Assignment%201&fontSize=38&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn" width="100%"/>
 
-<img src="https://img.shields.io/badge/JAVA-Assignment%202-F89820?style=for-the-badge&logo=openjdk&logoColor=white"/>{=html}
-<img src="https://img.shields.io/badge/PROGRAMS-8-00BCD4?style=for-the-badge"/>{=html}
-<img src="https://img.shields.io/badge/ADVANCED%20JAVA-COVERED-7E57C2?style=for-the-badge"/>{=html}
-<img src="https://img.shields.io/badge/ADIT-CVMU-1565C0?style=for-the-badge"/>{=html}
-:::
+<br>
 
-🌟 About Assignment 2
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&duration=3000&pause=1000&color=F89820&center=true&vCenter=true&width=800&height=80&lines=☕+Core+Java+%7C+OOP+%7C+Exception+Handling;🚀+8+Programs+%7C+8+Practical+Problems;💻+Learn+Java+by+Building+Programs;🎓+Programming+with+JAVA+%7C+202044502" alt="Java Programming Assignment"/>
 
-Welcome to Assignment 2 of my Programming with JAVA course.
+<br><br>
 
-This assignment contains 8 different Java programs covering advanced
-and practical Java programming concepts.
+<!-- Main Badges -->
+<img src="https://img.shields.io/badge/JAVA-ASSIGNMENT%201-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Assignment 1"/>
+<img src="https://img.shields.io/badge/PROGRAMS-8-6C63FF?style=for-the-badge" alt="8 Programs"/>
+<img src="https://img.shields.io/badge/OOP-COVERED-00C853?style=for-the-badge" alt="OOP Covered"/>
+<img src="https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=for-the-badge" alt="Completed"/>
 
-::: {align="center"}
-☕ Language   📚 Programs       ⚡ Focus                🎓 Course
+<br><br>
 
-**Java**        **8**      **Advanced Java**   **Programming with JAVA**
+<img src="https://img.shields.io/badge/ADIT-CVMU-1565C0?style=for-the-badge" alt="ADIT CVMU"/>
+<img src="https://img.shields.io/badge/COURSE-PROGRAMMING%20WITH%20JAVA-8E44AD?style=for-the-badge" alt="Programming with Java"/>
 
-:::
+</div>
 
-🚀 What You Will Learn
+---
 
-                    ☕ JAVA
-                      │
-       ┌──────────────┼──────────────┐
-       │              │              │
-   🧵 Threads     🗂️ Collections   📁 Files
-       │              │              │
-   Runnable       ArrayList        File API
-   Executor       HashMap          Directory
-   Synchronize    TreeMap           │
-       │              │              │
-       └──────────────┼──────────────┘
-                      │
-              🌐 Networking
-                      │
-                  TCP Client
-                  TCP Server
-                      │
-                      ▼
-                 🖥️ Swing GUI
-                      │
-                      ▼
-              🚀 ADVANCED JAVA
+# 🌟 About Assignment 1
 
-📚 Programs
+Welcome to **Assignment 1** of my **Programming with JAVA** course.
 
-🧵 Program 1 --- Prime Numbers Using Multithreading
+This assignment contains **8 Java programs** designed to practice important **Core Java** and **Object-Oriented Programming (OOP)** concepts through practical problems.
 
-File: Program1.java
+The programs cover:
 
-📝 Problem
+- 🔢 Arrays
+- 🔤 Strings
+- 📐 Matrix Operations
+- 📦 Wrapper Classes
+- 🏦 Classes & Objects
+- 👨‍👦 Inheritance
+- 🔐 Abstract Classes
+- 🧩 Inner Classes
+- ⚠️ Exception Handling
 
-Find prime numbers using different Java multithreading approaches.
+---
 
-🔧 Approaches
+<div align="center">
 
-🧵 Thread
+## 📊 Assignment Statistics
 
-🔄 Runnable
+| ☕ Language | 📚 Programs | 🧠 Concepts | 🎯 Status |
+|:---:|:---:|:---:|:---:|
+| **Java** | **8** | **Core Java + OOP** | **Completed** |
 
-⚡ Executor Framework
+</div>
 
-🧠 Concepts
+---
 
-Multithreading • Thread • Runnable • ExecutorService •
-Concurrency
+# 🎯 Learning Objectives
 
-🔄 Program 2 --- Producer--Consumer
+<div align="center">
 
-File: Program2.java
+```text
+                         ☕ JAVA
+                           │
+            ┌──────────────┴──────────────┐
+            │                             │
+        🔢 CORE JAVA                    🏗️ OOP
+            │                             │
+     ┌──────┼──────┐              ┌───────┼───────┐
+     │      │      │              │       │       │
+   Arrays Strings Math          Classes Objects Methods
+     │      │      │              │       │       │
+   Search  Sort  Matrix       Constructor Inheritance
+                                   │
+                                   ▼
+                              🔐 Abstraction
+                                   │
+                                   ▼
+                            🧩 Inner Classes
+                                   │
+                                   ▼
+                           ⚠️ Exception Handling
+                                   │
+                                   ▼
+                         🚀 JAVA FOUNDATION
+```
 
-📝 Problem
+</div>
 
-Implement the Producer--Consumer problem using synchronization and
-inter-thread communication.
+---
 
-🔧 Concepts
+# 📚 Programs
 
-🏭 Producer
+## 🔢 Program 1 — Array & String Operations
 
-📦 Consumer
+<div align="center">
 
-🔒 Synchronization
+<img src="https://img.shields.io/badge/PROGRAM-01-F89820?style=for-the-badge" alt="Program 1"/>
 
-🔄 Inter-thread communication
+</div>
 
-⏳ Thread coordination
+**File:** `Program1.java`
 
-🔁 Flow
+### 📝 Problem Statement
 
-🏭 Producer
-     │
-     ▼
-📦 Shared Buffer
-     │
-     ▼
-🛒 Consumer
+Write a Java program to perform basic **Array and String operations** using classes and objects.
 
-🗂️ Program 3 --- CRUD Using Collections
+### 🔧 Operations
 
-File: Program3.java
+| Operation | Description |
+|:---|:---|
+| 🔄 Reverse | Reverse array/string elements |
+| 📊 Sort | Sort array elements |
+| 🔎 Search | Search an element |
+| ➗ Average | Calculate average |
+| 🏆 Maximum | Find maximum element |
+| 🔤 String Operations | Perform string operations |
 
-📝 Problem
+### 🧠 Concepts
 
-Implement CRUD operations using the Java Collection API.
+`Arrays` • `Strings` • `Classes` • `Objects` • `Methods`
 
-📚 Collections Used
+---
 
-Collection    Use
+# 🔢 Program 2 — Matrix Operations
 
-ArrayList   Ordered collection
-HashMap     Key-value storage
-TreeMap     Sorted key-value storage
+<div align="center">
 
-🔧 Operations
+<img src="https://img.shields.io/badge/PROGRAM-02-6C63FF?style=for-the-badge" alt="Program 2"/>
 
-➕ CREATE
-🔎 READ
-✏️ UPDATE
-🗑️ DELETE
+</div>
 
-📚 Program 4 --- Book Sorting
+**File:** `Program2.java`
 
-File: Program4.java
+### 📝 Problem Statement
 
-📝 Problem
+Develop a **Matrix class** using constructors and perform different matrix operations.
 
-Sort Book objects using the:
+### 🔧 Operations
 
-Comparable interface
+- 🏗️ Constructors
+- 🔄 Matrix Transpose
+- ✖️ Matrix Multiplication
+- 📐 Two-Dimensional Arrays
 
-Comparator interface
+### 🧠 Concepts
 
-🧠 Concepts
+`Classes` • `Constructors` • `2D Arrays` • `Methods`
 
-Comparable • Comparator • Collections.sort() • Object Sorting
+---
 
-🔀 Sorting Concept
+# 🔤 Program 3 — Wrapper Classes & StringBuffer
 
-📚 Book Objects
-       │
-       ├── Comparable
-       │      ↓
-       │   Natural Order
-       │
-       └── Comparator
-              ↓
-        Custom Ordering
+<div align="center">
 
-📄 Program 5 --- Word Occurrence from File
+<img src="https://img.shields.io/badge/PROGRAM-03-00A86B?style=for-the-badge" alt="Program 3"/>
 
-File: Program5.java
+</div>
 
-📝 Problem
+**File:** `Program3.java`
 
-Count word occurrences from a file using Java File Handling APIs.
+### 📝 Problem Statement
 
-📁 Concepts
+Write a Java program demonstrating **Wrapper Classes** and the difference between `String` and `StringBuffer`.
 
-File Handling
+### 🔧 Concepts
 
-Reading files
+- 📦 Wrapper Classes
+- 🔤 String
+- 🧵 StringBuffer
+- ⚡ Mutable Objects
+- 🔒 Immutable Objects
 
-Processing text
+### 💡 Key Difference
 
-Word counting
+```text
+┌──────────────────────┐
+│        String        │
+├──────────────────────┤
+│     Immutable        │
+└──────────────────────┘
 
-Input/Output APIs
+           VS
 
-🔁 Flow
+┌──────────────────────┐
+│     StringBuffer     │
+├──────────────────────┤
+│      Mutable         │
+└──────────────────────┘
+```
 
-📄 Input File
-     ↓
-📖 Read Content
-     ↓
-🔤 Extract Words
-     ↓
-🔢 Count Occurrences
-     ↓
-📊 Display Result
+---
 
-📁 Program 6 --- Display Files of a Directory
+# 🏦 Program 4 — Bank Account
 
-File: Program6.java
+<div align="center">
 
-📝 Problem
+<img src="https://img.shields.io/badge/PROGRAM-04-1565C0?style=for-the-badge" alt="Program 4"/>
 
-Display all files of a given directory using the Java File class.
+</div>
 
-🧠 Concepts
+**File:** `Program4.java`
 
-File class
+### 📝 Problem Statement
 
-Directory handling
+Implement a `BankAccount` class with basic banking operations.
 
-File listing
+### 💰 Operations
 
-Path handling
+```text
+             💵 DEPOSIT
+                  │
+                  ▼
+        ┌──────────────────┐
+        │   🏦 BANK        │
+        │     ACCOUNT      │
+        └──────────────────┘
+                  │
+          ┌───────┴───────┐
+          │               │
+          ▼               ▼
+     💸 WITHDRAW      💰 BALANCE
+```
 
-📂 Example
+### 🧠 Concepts
 
-📁 Given Directory
-│
-├── 📄 file1.txt
-├── 📄 file2.java
-├── 📄 report.pdf
-└── 📁 subfolder
+`Class` • `Object` • `Methods` • `Encapsulation`
 
-🌐 Program 7 --- TCP Echo Client--Server
+---
 
-File: Program7.java
+# 🏏 Program 5 — Cricket Match System
 
-📝 Problem
+<div align="center">
 
-Implement a TCP Echo Client--Server program using Java networking.
+<img src="https://img.shields.io/badge/PROGRAM-05-FF5722?style=for-the-badge" alt="Program 5"/>
 
-🌐 Communication
+</div>
 
-       TCP CONNECTION
+**File:** `Program5.java`
 
-💻 CLIENT  ───────────►  🖥️ SERVER
-              Message
+### 📝 Problem Statement
 
-💻 CLIENT  ◄───────────  🖥️ SERVER
-              Echo
+Develop an inheritance-based **Cricket Match System** using command-line arguments.
 
-🧠 Concepts
+### 🏗️ Concepts
 
-TCP
+- 👨‍👦 Inheritance
+- 🏏 Cricket Match
+- 💻 Command Line Arguments
+- 🔄 Method Reuse
+- 🧬 Parent & Child Classes
 
-Client
+### 🔄 Concept Flow
 
-Server
+```text
+             🏏 CRICKET MATCH
+                    │
+                    ▼
+             Parent Class
+                    │
+                    ▼
+             Child Class
+                    │
+                    ▼
+              Inheritance
+                    │
+                    ▼
+             Method Reuse
+```
 
-Socket
+---
 
-ServerSocket
+# 🔐 Program 6 — Cipher System
 
-Input/Output streams
+<div align="center">
 
-Network communication
+<img src="https://img.shields.io/badge/PROGRAM-06-8E44AD?style=for-the-badge" alt="Program 6"/>
 
-📊 Program 8 --- Swing Investment Calculator
+</div>
 
-File: Program8.java
+**File:** `Program6.java`
 
-📝 Problem
+### 📝 Problem Statement
 
-Develop a GUI-based Investment Calculator using Java Swing.
+Implement a **Cipher System** using an Abstract Class and Method Overriding.
 
-🖥️ GUI Concepts
+### 🧠 Concepts
 
-JFrame
+- 🧩 Abstract Class
+- 🔧 Abstract Methods
+- ♻️ Method Overriding
+- 🔐 Cipher / Encoding Logic
 
-JTextField
+### 🔄 Concept Flow
 
-JButton
+```text
+          🧩 ABSTRACT CLASS
+                  │
+                  ▼
+          Abstract Method
+                  │
+                  ▼
+        ┌─────────┴─────────┐
+        │                   │
+        ▼                   ▼
+   Implementation       Override
+        │                   │
+        └─────────┬─────────┘
+                  ▼
+             🔐 CIPHER
+```
 
-JLabel
+---
 
-Event Handling
+# 🧩 Program 7 — Inner Classes
 
-ActionListener
+<div align="center">
 
-Investment calculations
+<img src="https://img.shields.io/badge/PROGRAM-07-00897B?style=for-the-badge" alt="Program 7"/>
 
-🖥️ Application Flow
+</div>
 
-💰 Investment Input
-        ↓
-📅 Time / Rate Input
-        ↓
-🖱️ Calculate Button
-        ↓
-🧮 Calculation
-        ↓
-📊 Result Display
+**File:** `Program7.java`
 
-📊 Assignment Overview
+### 📝 Problem Statement
 
-::: {align="center"}
-#      Program                 Main Concept
+Demonstrate different types of **Inner Classes** in Java.
 
-🔵 01  Prime Numbers           Multithreading
-🔵 02  Producer--Consumer      Synchronization
-🔵 03  CRUD                    Collection API
-🔵 04  Book Sorting            Comparable + Comparator
-🔵 05  Word Occurrence         File Handling
-🔵 06  Directory Files         File Class
-🔵 07  TCP Echo                Networking
-🔵 08  Investment Calculator   Swing GUI
+### 📌 Types of Inner Classes
 
-🏆 8 / 8 Programs Completed
+| Type | Description |
+|:---|:---|
+| 🏠 **Member Inner Class** | Class declared inside another class |
+| 📍 **Local Inner Class** | Class declared inside a method |
+| 👻 **Anonymous Inner Class** | Class without an explicit name |
 
-<img src="https://progress-bar.dev/100/?width=500&title=Assignment%202%20Completed&suffix=%25" alt="100 percent complete"/>{=html}
-:::
+### 🧠 Structure
 
-🛠️ Technologies Used
+```text
+                 Outer Class
+                     │
+        ┌────────────┼────────────┐
+        │            │            │
+        ▼            ▼            ▼
+   🏠 Member      📍 Local      👻 Anonymous
+     Class          Class          Class
+```
 
-::: {align="center"}
-<img src="https://skillicons.dev/icons?i=java,vscode,git,github" alt="Technology icons"/>{=html}
-:::
+---
 
-Technology       Purpose
+# ⚠️ Program 8 — Custom Exception Handling
 
-☕ Java      Main Programming Language
-📦 JDK       Compile and Run Programs
-💻 VS Code   Development Environment
-🔧 Git       Version Control
-🐙 GitHub    Source Code Repository
-🖥️ Swing     GUI Development
-🌐 TCP/IP    Network Programming
+<div align="center">
 
-🧠 Advanced Concepts Practiced
+<img src="https://img.shields.io/badge/PROGRAM-08-E53935?style=for-the-badge" alt="Program 8"/>
 
-::: {align="center"}
-<img src="https://img.shields.io/badge/Multithreading-F89820?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Runnable-F89820?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Executor%20Framework-F89820?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Synchronization-E91E63?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Collections-7E57C2?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Comparable-7E57C2?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Comparator-7E57C2?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/File%20Handling-00897B?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Networking-1565C0?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/TCP%2FIP-1565C0?style=flat-square"/>{=html}
-<img src="https://img.shields.io/badge/Swing-GUI-6A1B9A?style=flat-square"/>{=html}
-:::
+</div>
 
-🚀 How to Run
+**File:** `Program8.java`
 
-1️⃣ Check Java Installation
+### 📝 Problem Statement
 
+Create a custom exception handling system for a **bank withdrawal scenario**.
+
+### 🔧 Concepts
+
+- ⚠️ Exception Handling
+- 🧩 Custom Exception
+- 💸 Withdrawal Validation
+- 🛡️ Error Handling
+- 🏦 Banking Scenario
+
+### 🔄 Program Flow
+
+```text
+       👤 User
+         │
+         ▼
+  Enter Withdrawal
+      Amount
+         │
+         ▼
+   Check Balance
+         │
+     ┌───┴───┐
+     │       │
+     ▼       ▼
+  Enough?   Not Enough
+     │       │
+     ▼       ▼
+ Withdraw   ⚠️ Exception
+     │       │
+     └───┬───┘
+         ▼
+      📋 Result
+```
+
+---
+
+# 📊 Assignment Overview
+
+<div align="center">
+
+| # | Program | Main Concept | Status |
+|:---:|:---|:---|:---:|
+| 🟠 **01** | Array & String Operations | Arrays + Strings | ✅ |
+| 🟣 **02** | Matrix Operations | Constructors + 2D Arrays | ✅ |
+| 🟢 **03** | Wrapper Classes | String + StringBuffer | ✅ |
+| 🔵 **04** | Bank Account | Classes + Methods | ✅ |
+| 🔴 **05** | Cricket Match | Inheritance | ✅ |
+| 🟣 **06** | Cipher System | Abstract Class | ✅ |
+| 🟢 **07** | Inner Classes | Inner Classes | ✅ |
+| 🔴 **08** | Bank Exception | Custom Exception | ✅ |
+
+</div>
+
+---
+
+# 🏆 Assignment Completion
+
+<div align="center">
+
+<img src="https://progress-bar.dev/100/?width=600&title=Assignment%201%20Completed&suffix=%25" alt="100 Percent Completed"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/8%2F8-PROGRAMS%20COMPLETED-00C853?style=for-the-badge" alt="8 of 8 Completed"/>
+
+</div>
+
+---
+
+# 🛠️ Technologies Used
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=java,vscode,git,github&theme=dark" alt="Technology Icons"/>
+
+</div>
+
+<br>
+
+| Technology | Purpose |
+|:---|:---|
+| ☕ **Java** | Main Programming Language |
+| 📦 **JDK** | Compile and Run Java Programs |
+| 💻 **VS Code** | Development Environment |
+| 🔧 **Git** | Version Control |
+| 🐙 **GitHub** | Source Code Repository |
+
+---
+
+# 🚀 How to Run
+
+## 1️⃣ Check Java Installation
+
+Open **PowerShell / Command Prompt / Terminal**:
+
+```bash
 java -version
 javac -version
+```
 
-2️⃣ Open Assignment-2
+Expected result:
 
-cd Assignment-2
+```text
+java version "..."
+javac ...
+```
 
-3️⃣ Compile a Program
+---
 
-Example:
+## 2️⃣ Open Assignment Folder
 
+```bash
+cd Assignment-1
+```
+
+---
+
+## 3️⃣ Compile a Program
+
+For example:
+
+```bash
 javac Program1.java
+```
 
-4️⃣ Run a Program
+---
 
+## 4️⃣ Run the Program
+
+```bash
 java Program1
+```
 
-🔁 Programs
+---
 
-Program1.java → Multithreading
-Program2.java → Producer–Consumer
-Program3.java → Collections CRUD
-Program4.java → Comparable / Comparator
-Program5.java → File Handling
-Program6.java → Directory Handling
-Program7.java → TCP Client–Server
-Program8.java → Swing GUI
+# 🔁 Run All Programs
 
-💡 Note: Program 7 uses a client-server architecture and may
-require the server to be started before the client, depending on the
-implementation.
+### Program 1
 
-📁 Folder Structure
+```bash
+javac Program1.java
+java Program1
+```
 
-Assignment-2/
+### Program 2
+
+```bash
+javac Program2.java
+java Program2
+```
+
+### Program 3
+
+```bash
+javac Program3.java
+java Program3
+```
+
+### Program 4
+
+```bash
+javac Program4.java
+java Program4
+```
+
+### Program 5
+
+```bash
+javac Program5.java
+java Program5
+```
+
+### Program 6
+
+```bash
+javac Program6.java
+java Program6
+```
+
+### Program 7
+
+```bash
+javac Program7.java
+java Program7
+```
+
+### Program 8
+
+```bash
+javac Program8.java
+java Program8
+```
+
+---
+
+# 📁 Folder Structure
+
+```text
+Assignment-1/
 │
 ├── ☕ Program1.java
 ├── ☕ Program2.java
@@ -383,124 +575,192 @@ Assignment-2/
 ├── ☕ Program6.java
 ├── ☕ Program7.java
 ├── ☕ Program8.java
+│
 └── 📖 README.md
+```
 
-📈 Learning Journey
+---
 
-START
-  │
-  ▼
-🧵 Multithreading
-  │
-  ▼
-🔄 Synchronization
-  │
-  ▼
-🗂️ Collections
-  │
-  ▼
-📚 Comparable & Comparator
-  │
-  ▼
-📄 File Handling
-  │
-  ▼
-📁 Directory Operations
-  │
-  ▼
-🌐 TCP Networking
-  │
-  ▼
-🖥️ Swing GUI
-  │
-  ▼
-🚀 ADVANCED JAVA FOUNDATION
+# 🧠 Concepts Practiced
 
-🎯 Learning Outcomes
+<div align="center">
 
-After completing Assignment 2, I practiced:
+<img src="https://img.shields.io/badge/Java-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/Classes-FF9800?style=for-the-badge" alt="Classes"/>
+<img src="https://img.shields.io/badge/Objects-FF9800?style=for-the-badge" alt="Objects"/>
+<img src="https://img.shields.io/badge/Arrays-42A5F5?style=for-the-badge" alt="Arrays"/>
+<img src="https://img.shields.io/badge/Strings-42A5F5?style=for-the-badge" alt="Strings"/>
 
-🧵 Creating and managing threads
+<br>
 
-⚡ Using the Executor Framework
+<img src="https://img.shields.io/badge/Constructors-00897B?style=for-the-badge" alt="Constructors"/>
+<img src="https://img.shields.io/badge/Methods-00897B?style=for-the-badge" alt="Methods"/>
+<img src="https://img.shields.io/badge/Inheritance-7E57C2?style=for-the-badge" alt="Inheritance"/>
+<img src="https://img.shields.io/badge/Abstraction-7E57C2?style=for-the-badge" alt="Abstraction"/>
 
-🔒 Synchronization and thread communication
+<br>
 
-🗂️ Working with Java Collections
+<img src="https://img.shields.io/badge/Inner%20Classes-00897B?style=for-the-badge" alt="Inner Classes"/>
+<img src="https://img.shields.io/badge/Exception%20Handling-E53935?style=for-the-badge" alt="Exception Handling"/>
+<img src="https://img.shields.io/badge/Wrapper%20Classes-3949AB?style=for-the-badge" alt="Wrapper Classes"/>
+<img src="https://img.shields.io/badge/StringBuffer-6A1B9A?style=for-the-badge" alt="StringBuffer"/>
 
-📚 Sorting objects using Comparable and Comparator
+</div>
 
-📄 Reading and processing files
+---
 
-📁 Working with directories
+# 📈 Learning Journey
 
-🌐 Building TCP client-server applications
+<div align="center">
 
-🖥️ Creating GUI applications with Swing
+```text
+                         🚀 START
+                            │
+                            ▼
+                    🔢 Arrays & Strings
+                            │
+                            ▼
+                    📐 Matrix Operations
+                            │
+                            ▼
+                     📦 Wrapper Classes
+                            │
+                            ▼
+                    🏦 Classes & Objects
+                            │
+                            ▼
+                       🏏 Inheritance
+                            │
+                            ▼
+                       🔐 Abstraction
+                            │
+                            ▼
+                      🧩 Inner Classes
+                            │
+                            ▼
+                  ⚠️ Exception Handling
+                            │
+                            ▼
+                  ☕ CORE JAVA FOUNDATION
+                            │
+                            ▼
+                     🚀 KEEP BUILDING
+```
 
-🖱️ Handling GUI events
+</div>
 
-📚 Assignment 2 Summary
+---
 
-::: {align="center"}
-📌                 Details
+# 🎓 Academic Information
 
-🔢 Programs        8
-☕ Language        Java
-⚡ Level           Advanced Java Concepts
-🎓 Course          Programming with JAVA
-📅 Academic Year   2025-26
-🏆 Completion      8 / 8
-:::
+<div align="center">
 
-🎓 Academic Information
+| Information | Details |
+|:---|:---|
+| 🏛️ **University** | Charutar Vidya Mandal University (CVMU) |
+| 🏫 **College** | A. D. Patel Institute of Technology (ADIT) |
+| 💻 **Department** | Information Technology |
+| 📚 **Course** | Programming with JAVA |
+| 🔢 **Course Code** | 202044502 |
+| 🎓 **Semester** | Sem-4 |
+| 📅 **Academic Year** | 2025-26 |
 
-Information            Details
+</div>
 
-🏛️ University      Charutar Vidya Mandal University (CVMU)
-🏫 College         A. D. Patel Institute of Technology (ADIT)
-💻 Department      Information Technology
-📚 Course          Programming with JAVA
-🔢 Course Code     202044502
-🎓 Semester        Sem-4
-📅 Academic Year   2025-26
+---
 
-👨‍💻 Author
+# 👨‍💻 Author
 
-::: {align="center"}
+<div align="center">
 
-Patel Yashkumar Shaileshkumar
+## Patel Yashkumar Shaileshkumar
 
-🎓 B.Tech Information Technology
-🏫 A. D. Patel Institute of Technology
-🏛️ Charutar Vidya Mandal University
-:::
+<img src="https://img.shields.io/badge/B.Tech-Information%20Technology-1565C0?style=for-the-badge" alt="B.Tech IT"/>
 
-🔗 Program Navigation
+<br><br>
 
-::: {align="center"}
+🎓 **B.Tech Information Technology**
 
-📗 Assignment 2
+🏫 **A. D. Patel Institute of Technology**
 
-Program 1 • Program 2 •
-Program 3 • Program 4
+🏛️ **Charutar Vidya Mandal University**
 
-Program 5 • Program 6 •
-Program 7 • Program 8
-:::
+<br><br>
 
-💡 Final Note
+<img src="https://img.shields.io/badge/Java-Developer-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Developer"/>
+<img src="https://img.shields.io/badge/OOP-Learning-6C63FF?style=for-the-badge" alt="OOP Learning"/>
+<img src="https://img.shields.io/badge/Problem%20Solving-Active-00C853?style=for-the-badge" alt="Problem Solving"/>
 
-🚀 Learn → Code → Debug → Understand → Improve
+</div>
 
-Assignment 2 extends the concepts learned in Assignment 1 into more
-practical areas of Java programming, including concurrency,
-collections, file systems, networking, and GUI development.
+---
 
-::: {align="center"}
+# 📌 Program Files
 
-☕ Code More. Learn More. Build More. 🚀
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=twinkling" width="100%"/>{=html}
+| # | File | Topic |
+|:---:|:---|:---|
+| **01** | `Program1.java` | 🔢 Array & String Operations |
+| **02** | `Program2.java` | 📐 Matrix Operations |
+| **03** | `Program3.java` | 🔤 Wrapper Classes & StringBuffer |
+| **04** | `Program4.java` | 🏦 Bank Account |
+| **05** | `Program5.java` | 🏏 Cricket Match |
+| **06** | `Program6.java` | 🔐 Cipher System |
+| **07** | `Program7.java` | 🧩 Inner Classes |
+| **08** | `Program8.java` | ⚠️ Custom Exception |
 
-⭐ Star this repository if you find it useful! ⭐
+</div>
+
+---
+
+# 🗂️ Assignment Checklist
+
+<div align="center">
+
+| Task | Completed |
+|:---|:---:|
+| Program 1 | ✅ |
+| Program 2 | ✅ |
+| Program 3 | ✅ |
+| Program 4 | ✅ |
+| Program 5 | ✅ |
+| Program 6 | ✅ |
+| Program 7 | ✅ |
+| Program 8 | ✅ |
+| README Documentation | ✅ |
+| GitHub Repository | ✅ |
+
+### 🎯 **8 / 8 Programs — COMPLETED**
+
+</div>
+
+---
+
+# 💡 Final Note
+
+> 🚀 **Practice → Understand → Code → Debug → Improve**
+
+This assignment is part of my journey to strengthen my:
+
+- ☕ Java Programming
+- 🏗️ Object-Oriented Programming
+- 🧠 Problem-Solving Skills
+- 💻 Software Development Skills
+- 🔧 Git & GitHub Skills
+
+---
+
+<div align="center">
+
+## ☕ Keep Coding. Keep Learning. Keep Building. 🚀
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:F89820,100:00C853&height=140&section=footer&animation=twinkling" width="100%"/>
+
+<br>
+
+### ⭐ Star this repository if you find it useful!
+
+</div>

@@ -1,4 +1,4 @@
-:: {align="center"}
+{align="center"}
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=180&section=header&text=Java%20Programming%20Assignment%202&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%"/>{=html}
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=4FC3F7&center=true&vCenter=true&width=750&lines=☕+Advanced+Java+Programming;🚀+8+Programs+%7C+Advanced+Concepts;🧵+Multithreading+%7C+Collections+%7C+Networking;📁+File+Handling+%7C+Swing+GUI;✨+Programming+with+JAVA+%7C+202044502" alt="Animated typing"/>{=html}
@@ -504,4 +504,3 @@ collections, file systems, networking, and GUI development.
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=twinkling" width="100%"/>{=html}
 
 ⭐ Star this repository if you find it useful! ⭐
-:::

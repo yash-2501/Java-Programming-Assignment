@@ -3,12 +3,13 @@
 import java.util.Scanner;
 
 abstract class Cipher {
-    abstract String encrypt(String text);
-    abstract String decrypt(String text);
+    public abstract String encrypt(String text);
+    public abstract String decrypt(String text);
 }
 
 class SimpleCipher extends Cipher {
 
+    @Override
     public String encrypt(String text) {
         String result = "";
         for (int i = 0; i < text.length(); i++) {
@@ -19,6 +20,7 @@ class SimpleCipher extends Cipher {
         return result;
     }
 
+    @Override
     public String decrypt(String text) {
         String result = "";
         for (int i = 0; i < text.length(); i++) {

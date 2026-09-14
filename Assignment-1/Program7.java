@@ -37,10 +37,8 @@ public class Program7 {
 
         o.display();
 
-        Test t = new Test() {
-            public void show() {
-                System.out.println("This is Anonymous Inner Class");
-            }
+        Test t = () -> {
+            System.out.println("This is Anonymous Inner Class");
         };
 
         t.show();

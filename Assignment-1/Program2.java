@@ -60,44 +60,42 @@ class Matrix {
 public class Program2 {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("Enter rows and columns of Matrix 1: ");
-        int r1 = input.nextInt();
-        int c1 = input.nextInt();
-
-        Matrix m1 = new Matrix(r1, c1);
-        System.out.println("Enter elements of Matrix 1:");
-        m1.readMatrix(input);
-
-        System.out.print("Enter rows and columns of Matrix 2: ");
-        int r2 = input.nextInt();
-        int c2 = input.nextInt();
-
-        Matrix m2 = new Matrix(r2, c2);
-        System.out.println("Enter elements of Matrix 2:");
-        m2.readMatrix(input);
-
-        System.out.println("\nMatrix 1:");
-        m1.displayMatrix();
-
-        System.out.println("\nMatrix 2:");
-        m2.displayMatrix();
-
-        System.out.println("\nTranspose of Matrix 1:");
-        Matrix t1 = m1.transpose();
-        t1.displayMatrix();
-		
-		System.out.println("\nTranspose of Matrix 2:");
-        Matrix t2 = m2.transpose();
-        t2.displayMatrix();
-
-        System.out.println("\nMatrix Multiplication Result: ");
-        Matrix mul = m1.multiply(m2);
-        if (mul != null) {
-            mul.displayMatrix();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.print("Enter rows and columns of Matrix 1: ");
+            int r1 = input.nextInt();
+            int c1 = input.nextInt();
+            
+            Matrix m1 = new Matrix(r1, c1);
+            System.out.println("Enter elements of Matrix 1:");
+            m1.readMatrix(input);
+            
+            System.out.print("Enter rows and columns of Matrix 2: ");
+            int r2 = input.nextInt();
+            int c2 = input.nextInt();
+            
+            Matrix m2 = new Matrix(r2, c2);
+            System.out.println("Enter elements of Matrix 2:");
+            m2.readMatrix(input);
+            
+            System.out.println("\nMatrix 1:");
+            m1.displayMatrix();
+            
+            System.out.println("\nMatrix 2:");
+            m2.displayMatrix();
+            
+            System.out.println("\nTranspose of Matrix 1:");
+            Matrix t1 = m1.transpose();
+            t1.displayMatrix();
+            
+            System.out.println("\nTranspose of Matrix 2:");
+            Matrix t2 = m2.transpose();
+            t2.displayMatrix();
+            
+            System.out.println("\nMatrix Multiplication Result: ");
+            Matrix mul = m1.multiply(m2);
+            if (mul != null) {
+                mul.displayMatrix();
+            }
         }
-		
-        input.close();
     }
 }

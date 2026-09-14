@@ -3,8 +3,8 @@
 import java.util.Scanner;
 
 class BankAccount {
-    private String name;
-    private int accNo;
+    private final String name;
+    private final int accNo;
     private double balance;
     private static int nextAccNo = 1;
 

@@ -21,6 +21,7 @@ public class Program1 {
             return true;
         }
 
+        @Override
         public void run() {
             StringBuilder primes = new StringBuilder();
             for (int i = start; i <= end; i++)
@@ -47,6 +48,7 @@ public class Program1 {
             return true;
         }
 
+        @Override
         public void run() {
             StringBuilder primes = new StringBuilder();
             for (int i = start; i <= end; i++)
@@ -73,6 +75,7 @@ public class Program1 {
             return true;
         }
 
+        @Override
         public void run() {
             StringBuilder primes = new StringBuilder();
             for (int i = start; i <= end; i++)
@@ -84,6 +87,7 @@ public class Program1 {
         }
     }
 
+    @SuppressWarnings("CallToPrintStackTrace")
     public static void main(String[] args) {
 
         System.out.println("=== Prime Numbers Using Multithreading ===\n");

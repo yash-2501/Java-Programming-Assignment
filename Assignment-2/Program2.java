@@ -35,14 +35,19 @@ class Producer implements Runnable {
         this.buffer = buffer;
     }
 
+    @Override
     public void run() {
-        for (int i = 1; i <= 10; i++) {
-            try {
+        try {
+            for (int i = 1; i <= 10; i++) {
                 buffer.produce(i);
-                Thread.sleep(100); 
-            } catch (InterruptedException e) {
-                e.printStackTrace();
             }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
         }
     }
 }
@@ -54,14 +59,19 @@ class Consumer implements Runnable {
         this.buffer = buffer;
     }
 
+    @Override
     public void run() {
-        for (int i = 1; i <= 10; i++) {
-            try {
+        try {
+            for (int i = 1; i <= 10; i++) {
                 buffer.consume();
-                Thread.sleep(150); 
-            } catch (InterruptedException e) {
-                e.printStackTrace();
             }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        try {
+            Thread.sleep(150);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
         }
     }
 }

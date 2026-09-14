@@ -24,14 +24,14 @@ Assignment 1 contains **8 Java programs** demonstrating fundamental Java program
 
 | No. | Program | Description |
 |---|---|---|
-| 1 | [Program1.java](Assignment-1/Program1.java) | Basic Array and String operations such as Reverse, Sort, Search, Average and Maximum using class and objects |
-| 2 | [Program2.java](Assignment-1/Program2.java) | Java programming problem – see source file |
-| 3 | [Program3.java](Assignment-1/Program3.java) | Java programming problem – see source file |
-| 4 | [Program4.java](Assignment-1/Program4.java) | Java programming problem – see source file |
-| 5 | [Program5.java](Assignment-1/Program5.java) | Java programming problem – see source file |
-| 6 | [Program6.java](Assignment-1/Program6.java) | Java programming problem – see source file |
-| 7 | [Program7.java](Assignment-1/Program7.java) | Java programming problem – see source file |
-| 8 | [Program8.java](Assignment-1/Program8.java) | Java programming problem – see source file |
+| 1 | [Program1.java](Assignment-1/Program1.java) | Implement Array and String operations (Reverse, Sort,Search, Average, Maximum) using class and objects |
+| 2 | [Program2.java](Assignment-1/Program2.java) | Develop Matrix class with constructors, transpose and mul plica on. |
+| 3 | [Program3.java](Assignment-1/Program3.java) | Write a program demonstrating Wrapper classes and String vs StringBuffer |
+| 4 | [Program4.java](Assignment-1/Program4.java) | Implement BankAccount class with deposit, withdraw and balance inquiry |
+| 5 | [Program5.java](Assignment-1/Program5.java) | Develop inheritance-based Cricket–Match system using command line arguments |
+| 6 | [Program6.java](Assignment-1/Program6.java) | Implement Cipher system using Abstract class and method overriding |
+| 7 | [Program7.java](Assignment-1/Program7.java) | Demonstrate Inner Classes (member, local, anonymous) |
+| 8 | [Program8.java](Assignment-1/Program8.java) | Create custom exception handling for bank withdrawal scenario |
 
 ## Assignment 1 Problem Statement
 
@@ -48,14 +48,14 @@ Assignment 2 contains **8 different Java programs** covering additional Java pro
 
 | No. | Program | Description |
 |---|---|---|
-| 1 | [Program1.java](Assignment-2/Program1.java) | Java programming problem – see source file |
-| 2 | [Program2.java](Assignment-2/Program2.java) | Java programming problem – see source file |
-| 3 | [Program3.java](Assignment-2/Program3.java) | Java programming problem – see source file |
-| 4 | [Program4.java](Assignment-2/Program4.java) | Java programming problem – see source file |
-| 5 | [Program5.java](Assignment-2/Program5.java) | Java programming problem – see source file |
-| 6 | [Program6.java](Assignment-2/Program6.java) | Java programming problem – see source file |
-| 7 | [Program7.java](Assignment-2/Program7.java) | Java programming problem – see source file |
-| 8 | [Program8.java](Assignment-2/Program8.java) | Java programming problem – see source file |
+| 1 | [Program1.java](Assignment-2/Program1.java) | Find prime numbers using multithreading (Thread, Runnable, Executor Framework} |
+| 2 | [Program2.java](Assignment-2/Program2.java) | Producer–Consumer problem using synchronization and inter-thread communication |
+| 3 | [Program3.java](Assignment-2/Program3.java) | Implement CRUD operations using Collection API (ArrayList, HashMap, TreeMap) |
+| 4 | [Program4.java](Assignment-2/Program4.java) | Sort Book objects using Comparable and Comparator interfaces |
+| 5 | [Program5.java](Assignment-2/Program5.java) | Count word occurrences from a βile using File Handling APIs |
+| 6 | [Program6.java](Assignment-2/Program6.java) | Display all βiles of a given directory using File class |
+| 7 | [Program7.java](Assignment-2/Program7.java) | Implement TCP Echo Client–Server program |
+| 8 | [Program8.java](Assignment-2/Program8.java) | Develop GUI-based Investment Calculator using Swing |
 
 > **Note:** Assignment 2 contains eight programs different from Assignment 1.
 

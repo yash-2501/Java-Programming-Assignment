@@ -12,12 +12,10 @@ public class Program7 {
         int mode = sc.nextInt();
         sc.nextLine(); 
 
-        if (mode == 1) {
-            startServer();
-        } else if (mode == 2) {
-            startClient();
-        } else {
-            System.out.println("Invalid option.");
+        switch (mode) {
+            case 1 -> startServer();
+            case 2 -> startClient();
+            default -> System.out.println("Invalid option.");
         }
     }
 
@@ -27,22 +25,21 @@ public class Program7 {
             System.out.println("=== TCP Echo Server Started ===");
             System.out.println("Waiting for client on port " + port + "...");
 
-            Socket clientSocket = serverSocket.accept();
-            System.out.println("Client connected: " + clientSocket.getInetAddress());
-
-            BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-            PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-
-            String message;
-            while ((message = in.readLine()) != null) {
-                System.out.println("Received from client: " + message);
-                out.println("Echo: " + message);
+            try (Socket clientSocket = serverSocket.accept()) {
+                System.out.println("Client connected: " + clientSocket.getInetAddress());
+                
+                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+                
+                String message;
+                while ((message = in.readLine()) != null) {
+                    System.out.println("Received from client: " + message);
+                    out.println("Echo: " + message);
+                }
             }
-
-            clientSocket.close();
             System.out.println("Client disconnected.");
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Server error: " + e.getMessage());
         }
     }
 
@@ -70,7 +67,7 @@ public class Program7 {
 
             System.out.println("Disconnected from server.");
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Client error: " + e.getMessage());
         }
     }
 }

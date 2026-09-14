@@ -83,34 +83,33 @@ class Operations {
 public class Program1 {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        Operations a = new Operations();
-		
-		System.out.println("-> String Opreations\n");
-        System.out.print("Enter String: ");
-        String str = input.nextLine();
-        a.revString(str);
-
-		System.out.println("\n-> Array Opreations\n");
-        System.out.print("Enter number of elements: ");
-        int n = input.nextInt();
-        int arr[] = new int[n];
-
-        System.out.println("Enter array elements:");
-        for (int i = 0; i < n; i++) {
-            arr[i] = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            Operations a = new Operations();
+            
+            System.out.println("-> String Opreations\n");
+            System.out.print("Enter String: ");
+            String str = input.nextLine();
+            a.revString(str);
+            
+            System.out.println("\n-> Array Opreations\n");
+            System.out.print("Enter number of elements: ");
+            int n = input.nextInt();
+            int arr[] = new int[n];
+            
+            System.out.println("Enter array elements:");
+            for (int i = 0; i < n; i++) {
+                arr[i] = input.nextInt();
+            }
+            
+            a.revArray(arr);
+            a.sortArray(arr);
+            
+            System.out.print("Enter element to search: ");
+            int key = input.nextInt();
+            a.searchArray(arr, key);
+            
+            a.avgArray(arr);
+            a.maxArray(arr);
         }
-
-        a.revArray(arr);
-        a.sortArray(arr);
-
-        System.out.print("Enter element to search: ");
-        int key = input.nextInt();
-        a.searchArray(arr, key);
-
-        a.avgArray(arr);
-        a.maxArray(arr);
-
-        input.close();
     }
 }
